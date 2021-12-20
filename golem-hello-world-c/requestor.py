@@ -11,7 +11,7 @@ async def worker(context: WorkContext, tasks: AsyncIterable[Task]):
     async for task in tasks:
         script = context.new_script()
 
-        # upload & run the provider.py script
+        # run the provider.py script
         future_result = script.run("/provider_bin")
 
         yield script
