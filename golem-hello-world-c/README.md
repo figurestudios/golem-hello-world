@@ -6,6 +6,7 @@
 * Make sure that you have gone through the [quick primer example](https://handbook.golem.network/requestor-tutorials/flash-tutorial-of-requestor-development) as to get your environment running and understood.
 
 ## Building
+### Linux Build instructions
 note: you may need `sudo` to run `docker` commands.
 ```
 docker build -t golem-hello-world-c:latest .
@@ -13,12 +14,18 @@ gvmkit-build golem-hello-world-c:latest
 gvmkit-build golem-hello-world-c:latest --push
 ```
 
-Note that normally it's `gvmkit-build` rather than `gvmkit_build` but something is wrong in my installation.
-
-Copy the hash link, which in my case is `eb26fc55959db9901148fc6dfaed8578b2f8fb7067c88feaeb1846f8` and swap it out in the provider.py file.
+Copy the hash link, which in my case is `9ba449e948b3249732a67e2f557a17085101a7d60c9d7c27a4c93a20` and swap it out in the requestor.py file.
 
 ## Running
 
+### Linux
+```
+export YAGNA_APPKEY=<YOUR_APPKEY>
+yagna payment init --sender
+python3 requestor.py
+```
+
+### Windows
 ```
 set YAGNA_APPKEY=<YOUR_APPKEY>
 yagna payment init --sender
