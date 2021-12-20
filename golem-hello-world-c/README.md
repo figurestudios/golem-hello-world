@@ -1,4 +1,4 @@
-# golem-hello-world-py
+# golem-hello-world-c
 
 ## Pre-requisites
 * Make sure [Docker Desktop](https://www.docker.com/products/docker-desktop) is installed and running.
