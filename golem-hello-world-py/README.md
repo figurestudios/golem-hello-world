@@ -15,7 +15,7 @@ python -m gvmkit_build golem-hello-world-py:latest --push
 
 Note that normally it's `gvmkit-build` rather than `gvmkit_build` but something is wrong in my installation.
 
-Copy the hash link, which in my case is `eb26fc55959db9901148fc6dfaed8578b2f8fb7067c88feaeb1846f8` and swap it out in the provider.py file.
+Copy the hash link, which in my case is `eb26fc55959db9901148fc6dfaed8578b2f8fb7067c88feaeb1846f8` and swap it out in the requestor.py file.
 
 ## Running
 
