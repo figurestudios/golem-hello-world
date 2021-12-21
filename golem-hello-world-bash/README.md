@@ -6,7 +6,7 @@
 * Make sure that you have gone through the [quick primer example](https://handbook.golem.network/requestor-tutorials/flash-tutorial-of-requestor-development) as to get your environment running and understood.
 
 ## Building
-
+### Windows Build instructions
 ```
 docker build -t golem-hello-world-bash:latest .
 python -m gvmkit_build golem-hello-world-bash:latest
