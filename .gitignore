@@ -1,2 +1,4 @@
 *.gvmi
 **/out.log
+golem-hello-world-java/Provider.jar
+golem-hello-world-java/Provider.class
