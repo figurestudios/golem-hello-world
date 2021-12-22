@@ -21,7 +21,8 @@ async def worker(context: WorkContext, tasks: AsyncIterable[Task]):
 
 async def main():
     package = await vm.repo( 
-        image_hash="cc4d7097d7a5aa1cd2630e90c482b79e6a1a706165e7438b563b37a5",
+        image_hash="cc4d7097d7a5aa1cd2630e90c482b79e6a1a706165e7438b563b37a5" # java example
+        # image_hash="d8df266007210b8ae5e1649f9ea68d1f17a3090a9fa9375331221c2f" # kotlin example
     )
 
     tasks = [Task(data=None)]
