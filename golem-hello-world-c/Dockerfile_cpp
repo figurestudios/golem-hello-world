@@ -1,0 +1,16 @@
+FROM alpine:latest
+
+# install build dependancies for compiling c files
+RUN apk add g++ libstdc++
+
+COPY provider.cpp /
+
+RUN g++ provider.cpp -o provider_bin
+
+# remove source and build resources to reduce the image size
+RUN rm provider.cpp
+
+RUN apk del g++
+
+VOLUME /golem/input /golem/work /golem/output
+WORKDIR /golem/work

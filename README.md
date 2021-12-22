@@ -5,7 +5,7 @@ Collection of "Hello World" applications on Golem. It's based off the official "
  - ### Task Examples
    - [Python](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-py)
    - [NodeJS](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-js)
-   - [C](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-c)
+   - [C/C++](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-c)
    - [Java/Kotlin](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-java)
    - [Bash/Shell](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-bash)
    - [Dart](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-dart)
