@@ -8,3 +8,4 @@ Collection of "Hello World" applications on Golem. It's based off the official "
    - [C](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-c)
    - [Java](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-java)
    - [Bash/Shell](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-bash)
+   - [Dart](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-dart)
