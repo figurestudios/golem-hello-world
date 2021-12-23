@@ -17,6 +17,12 @@ javac Provider.java
 jar cfe Provider.jar Provider Provider.class
 ```
 
+This example will also work with other JVM languages, such as `Kotlin`
+you can compile a Kotlin program to run in the jvm like this:
+```
+kotlinc Provider.kt -include-runtime -d Provider.jar
+```
+
 
 note: you may need `sudo` to run `docker` commands.
 ```
@@ -25,7 +31,13 @@ gvmkit-build golem-hello-world-java:latest
 gvmkit-build golem-hello-world-java:latest --push
 ```
 
-Copy the hash link, which in my case is `cc4d7097d7a5aa1cd2630e90c482b79e6a1a706165e7438b563b37a5` and swap it out in the requestor.py file.
+Copy the hash link, in my case
+
+```
+Java: cc4d7097d7a5aa1cd2630e90c482b79e6a1a706165e7438b563b37a5
+Kotlin: d8df266007210b8ae5e1649f9ea68d1f17a3090a9fa9375331221c2f
+``` 
+and swap it out in the requestor.py file.
 
 ## Running
 
