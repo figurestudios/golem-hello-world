@@ -10,3 +10,4 @@ Collection of "Hello World" applications on Golem. It's based off the official "
    - [Bash/Shell](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-bash)
    - [Dart](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-dart)
    - [Ruby](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-ruby)
+   - [Lua](https://github.com/figurestudios/golem-hello-world/tree/main/golem-hello-world-lua)
